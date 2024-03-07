@@ -109,7 +109,7 @@ plt.text(AB*0.7, 0+0.5, f"{int(np.round(np.degrees(beta)))} °", ha="center", va
 plt.text(0+0.5, AC*0.8, f"{int(np.round(np.degrees(alpha)))} °", ha="center", va="center", fontsize=7.5,) # C açısı etiketi yazılması
 
 # Alanı hesapla
-Alan = (AB + AC) * 2
+Alan = (AB * AC) / 2
 print(f"Alan = {Alan: .2f}")
 
 # Çevreyi hesapla
